@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <p>Цель работы – приобретение навыков создания для HTML-документа
+        внешних и внутренних скриптов на JavaScript, формирование<br>
+        практических навыков использования операторов и создания функций.</p>
+
+        <script src="script.js"></script>
+
+        <script>
+            alert("У меня есть навыки создания веб-страниц с использованием HTML и CSS");
+        </script>
+
+        <script>
+            let group = 4217;
+            let message = "Номер моей группы: " + String(group);
+            alert(message);
+        </script>
+
+        <script>
+            let group = 4217;
+            let message = "Номер моей группы: " + String(group);
+            alert(message;
+        </script>
+
+        <script>
+            let bmi = 23;
+
+            if (bmi < 18.5) {
+                alert("Рекомендуем увеличить потребление калорий за счет белков, полезных жиров и сложных углеводов");
+            } else if (bmi >= 18.5 && bmi < 24.9) {
+                alert("Советуем соблюдать сбалансированный рацион с регулярными приемами пищи, следить за разнообразием продуктов");
+            } else {
+                alert("Рекомендуем ограничить потребление калорий и увеличить долю овощей, белка в рационе");
+            }
+        </script>
+
+        <script>
+            let str = "45";
+            let num = +str;
+            alert("Число: " + num);
+        </script>
+
+        <script>
+            function timeToWalk() {
+                let distance = 4500;
+                let speed = 4;
+                let time = (distance / 1000) / speed * 60;
+                alert("Время, которое потребуется для прохождения Невского проспекта: " +
+                      time + " минут (Function Declaration)");
+            }
+
+            timeToWalk();
+
+            let timeToWalkExpr = function() {
+                let distance = 4500;
+                let speed = 4;
+                let time = (distance / 1000) / speed * 60;
+                alert("Время, которое потребуется для прохождения Невского проспекта: " +
+                      time + " минут (Function Expression)");
+            };
+
+            timeToWalkExpr();
+
+            let timeToWalkArrow = () => {
+                let distance = 4500;
+                let speed = 4;
+                let time = (distance / 1000) / speed * 60;
+                alert("Время, которое потребуется для прохождения Невского проспекта: " +
+                      time + " минут (Arrow Function)");
+            };
+
+            timeToWalkArrow();
+        </script>
+
+    </body>
+</html>

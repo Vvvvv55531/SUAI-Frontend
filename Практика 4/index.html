@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+         <nav class="navbar navbar-expand-lg bg-light m-3">
+            <div class="w-100">
+                <button class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="nav">
+                    <div class="item">
+                    <a href=https://ru.wikipedia.org/wiki/Фотография>
+                    Фотография</a></div>
+
+                    <div class="item">
+                    <a href=https://ru.wikipedia.org/wiki/Хронология_фотографии>
+                    Хронология фотографии</a></div>
+
+                    <div class="item">
+                    <a href=https://ru.wikipedia.org/wiki/Дагеротипия>
+                    Дагеротипия</a></div>
+
+                    <div class="item">
+                    <a href=https://ru.wikipedia.org/wiki/Амбротипия>
+                    Амбротипия</a></div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="box row bg-light m-3">
+            <div class="item i-m col-md-4">
+                    <p>Дагер(р)оти́пия (фр. daguerréotype) — ранний фотографический процесс,
+                    основанный на светочувствительности йодистого серебра.
+                    Первая в мире работоспособная технология фотографии,
+                    использовавшаяся в течение двух десятилетий и вытесненная
+                    во второй половине XIX века более дешёвыми и удобными процессами.</p>
+                </div>
+
+                <div class="item i-m col-md-4">
+                    <img src="img.png" class="img">
+                    <p>Фотогра́фия — технология записи изображения путём регистрации
+                    оптических излучений с помощью светочувствительного фотоматериала
+                    или полупроводникового преобразователя. В отличие от некоторых
+                    других языков, в русском слово «фотография» используется только
+                    применительно к статичным изображениям. В то же время в профессиональном
+                    кинематографе этот термин обозначает изобразительное решение фильма,
+                    создаваемое кинооператором.Фотографиями также называются конечные
+                    отпечатки фотографического изображения, изготовленные на фотобумаге
+                    химическим способом или принтером.</p>
+                </div>
+
+                <div class="item i-m col-md-4">
+                    <p>Амброти́пия (от др.-греч. ἄμβροτος — «бессмертный», и τύπος — «отпечаток»)
+                    — ранний фотографический процесс, описанный в начале 1850-х годов
+                    изобретателем коллодионного процесса Фредериком Арчером, как один
+                    из его вариантов. Другие названия — амфитипия и витротипия.
+                    Патент № 11267 на технологию получен 11 июля 1854 года фотографом
+                    Джеймсом Каттингом. Отличие от оригинального коллодионного процесса
+                    заключается в получении позитивного изображения непосредственно из
+                    стеклянного негатива, который рассматривается на тёмном фоне.</p>
+                </div>
+        </main>
+
+        <footer class="box row bg-light m-3">
+            <div class="i-f col-md-4">
+                <p>Телефон: 8988-123-45-67</p>
+            </div>
+
+            <div class="i-f col-md-4">
+                <p>Адрес: ул. Большая Морская, д. 67</p>
+            </div>
+        </footer>
+
+
+        <article class="card m-3" style="width: 300px;">
+          <img src="img.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок карточки</h5>
+            <p class="card-text">Краткое описание</p>
+            <a href="#" class="btn btn-primary">Ссылка</a>
+          </div>
+        </article>
+
+
+
+        <button type="button" class="btn btn-primary m-3"
+        data-bs-toggle="modal"
+        data-bs-target="#example">
+        Показать сообщение
+        </button>
+
+        <article class="modal fade" id="example"
+        aria-labelledby="modal"
+        aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal">Сообщение</h5>
+                <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Закрыть"></button>
+              </div>
+
+              <div class="modal-body">
+                <p>Успех!</p>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal">Закрыть</button>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    </body>
+</html>

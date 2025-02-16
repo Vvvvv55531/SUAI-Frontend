@@ -1,0 +1,42 @@
+.item {
+    border: solid 2px darkgray;
+    background-color: #E5E5E5;
+
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 20px;
+}
+
+.img {
+    float: left;
+    margin: 0 10px;
+}
+
+.i-m {
+    width: 31.18%;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.i-f {
+    border: solid 2px darkgray;
+
+    width: 50%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+@media (max-width: 990px) {
+    .item, .i-f {
+        width: auto;
+    }
+
+    .img {
+        float: none;
+    }
+
+    .box {
+        display: block;
+    }
+}

@@ -1,0 +1,12 @@
+form {
+    background-color: whitesmoke;
+    width: 500px;
+}
+
+legend {
+    font-size: 18px;
+}
+
+input, select, button {
+    margin: 5px;
+}

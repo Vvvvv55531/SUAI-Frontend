@@ -1,0 +1,47 @@
+table, th, td {
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+table {
+    width: 600px;
+}
+
+caption{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 15px 5px 15px 5px;
+}
+
+thead {
+    background-color: azure;
+    text-align: center;
+}
+
+thead th:first-child {
+    width: 28%;
+}
+
+thead th:nth-child(2n) {
+    width: 50%;
+}
+
+thead th:last-child {
+    width: 22%;
+}
+
+tbody tr:first-child td:nth-of-type(odd) {
+    text-align: center;
+}
+
+tbody tr:nth-child(3n) td:last-child {
+    text-align: center;
+}
+
+tbody tr:last-child td:nth-of-type(odd) {
+    text-align: center;
+}

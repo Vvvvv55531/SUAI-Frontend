@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    background-color: gainsboro;
+}
+
+.item {
+    border: solid 2px dimgray;
+    background-color: darkgray;
+
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 20px;
+    flex-grow: 1;
+}
+
+.c-2 {
+    margin: 15px 0;
+}
+
+.i-2 {
+    border: solid 2px dimgray;
+
+    width: 25%;
+    text-align: left;
+    padding: 10px 30px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.center {
+    width: 50%;
+}
+
+.img {
+    float: left;
+    margin: 0 10px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .item, .i-2 {
+        width: auto;
+    }
+}
+
+.c-3 {
+    display: flex;
+    background-color: gainsboro;
+}
+
+.i-3 {
+    width: 100%;
+    border: solid 2px dimgray;
+
+    text-align: center;
+    padding: 10px;
+}

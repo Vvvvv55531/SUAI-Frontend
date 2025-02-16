@@ -1,0 +1,45 @@
+.part1 {
+    font-family: Arial;
+    font-size: 0.75em;
+}
+
+.part2 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.part3 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.part4 {
+    color: blueviolet;
+}
+
+.list1 li::marker {
+    color: green;
+}
+
+.list2 li::marker {
+    color:blueviolet;
+}
+
+.par {
+    border: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.body1 {
+    background-color: floralwhite;
+}
+
+.body2 {
+    background-color: antiquewhite;
+}
+
+a:hover {
+    color:darkviolet;
+}
